@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import SocialLinks from './SocialLinks'
+import Ad1 from "public/assets/ad-1.jpg"
 
 const Navbar = () => {
   return (
@@ -24,7 +25,7 @@ const Navbar = () => {
                 <p className='text-sm mt-3'>Blog dedicated towards AI and Machine Learning</p>
             </div>
             <div className='basis-full relative w-auto h-32 bg-wh-500'>
-                Image
+                <Image fill alt="banner" src={Ad1} style={{objectFit: "cover"}} />
             </div>
         </div>
     </header>

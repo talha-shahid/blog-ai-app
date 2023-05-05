@@ -10,6 +10,7 @@ const openSans = Open_Sans({
 export const metadata = {
   title: 'Blog AI App',
   description: 'Blog built in NextJS that uses AI to generate content',
+
 }
 
 export default function RootLayout({
